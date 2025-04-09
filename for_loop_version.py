@@ -24,10 +24,3 @@ def sing(num_bottles):
         else:
             print("1 bottle of beer on the wall, 1 bottle of beer.")
             print("Take it down, pass it around, no more bottles of beer on the wall!")
-
-def main():
-    num = get_starting_number()
-    sing(num)
-
-if __name__ == "__main__":
-    main()
